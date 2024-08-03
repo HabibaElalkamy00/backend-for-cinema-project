@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MoviesReservation</title>
+    <link href="~/css/sweetalert/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MoviesReservation.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/all.css" >
+    <link rel="stylesheet" href="~/css/bootstrap.css">
+    <link rel="stylesheet" href="~/css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="~/css/jquery.hislide.min.css">
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="icon" href="~/images/favicon.ico" type="image/x-icon" />
+</head>
+<body style="overflow-x:hidden">
+    <style>
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius: 10px;
+            background-color: #F5F5F5;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+            background-color: #F5F5F5;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #555;
+        }
+    </style>
+
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="~/images/ninja_turtles.png" alt="">
+                        <h1>Ninja's Team</h1>
+                    </div>
+                    <div class="links">
+                        <a asp-controller="home" >Home</a>
+                        <a asp-controller="movie" asp-action="Index">Movies</a>
+                        <a href="">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="my-5" style="margin-bottom:0 !important">
+        <footer class="text-center text-lg-start text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h4>Home Page</h4>
+                        <li>Popular Now</li>
+                        <li>Coming Soon</li>
+                        <li>Weekly Movies</li>
+                        <li>News</li>
+                        <li>About Us</li>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h4>Resources</h4>
+                        <li>Installation Manual</li>
+                        <li>Release Note</li>
+                        <li>Community Help</li>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h4>Company</h4>
+                        <li>About Us</li>
+                        <li>Career</li>
+                        <li>Press</li>
+                        <li>Support</li>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                        <h4>Newsletter</h4>
+                        <input type="email" placeholder="Enter Your Email" class="">
+                        <li>Follow Us</li>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/all.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="~/js/jquery.flipster.min.js"></script>
+    <script src="~/js/jquery.hislide.min.js"></script>
+    <script src="~/js/main.js"></script>
+    @if (TempData.ContainsKey("Validation"))
+    {
+        <script src="~/css/sweetalert/dist/sweetalert2.min.js"></script>
+
+        <p>@TempData["Validation"] </p>
+        <script>
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: '@TempData["Validation"].ToString()',
+               
+                 })
+        </script>
+
+    }
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

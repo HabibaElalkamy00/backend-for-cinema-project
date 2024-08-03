@@ -1,0 +1,140 @@
+﻿@model MoviesReservation.ViewModel.ReservationView
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="~/css/booking.css">
+<link rel="stylesheet" href="~/css/styles.css">
+<link href="~/css/sweetalert/dist/sweetalert2.min.css" rel="stylesheet">
+
+<div class="movie-container">
+    <label>Pick a movie:</label>
+    <select id="PickMovie">
+        <option>Select Movie</option>
+        @foreach(var movie in Model.AllMovieTopick)
+        {
+            <option value="@movie.MovieId">
+                
+                    @movie.Movie.Name (@movie.price LE) 
+                
+             </option>
+        }
+
+    </select>
+
+    <label style="margin-left:2rem">Picked a movie:</label>
+    <select id="Pickedmovie" disabled>
+        <option value="@Model.PickedMovie.Id">@Model.PickedMovie.Movie.Name (@Model.PickedMovie.price LE)</option>
+    
+
+    </select>
+
+    <br />
+    <br />
+    <label>Avaliable :</label>
+    <select id="PickeDay">
+        <option>Select Day</option>
+        @foreach(var date in Model.AllAvaliableDay)
+        {
+            <option value="@date.id">day: @date.dayName date: @date.date hour: @date.Starthour (@date.Price) </option>
+        }
+
+
+    </select>
+    <label>Picked Day :</label>
+    <select id="movie" disabled>
+
+       
+        <option value="@Model.PickedMovie.price">
+
+            day: @Model.PickedMovie.StartDateTime.ToString("dddd") date: @Model.PickedMovie.StartDateTime.ToString("yyyy-MM-dd") hour: @Model.PickedMovie.StartDateTime.ToString("hh tt") (@Model.PickedMovie.price LE)
+        </option>
+       
+
+
+    </select>
+</div>
+<ul class="showcase">
+    <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+    </li>
+    <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+    </li>
+    <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+    </li>
+</ul>
+<div class="container">
+    <div class="screen"></div>
+
+    @for (int i = 1; i <= Model.Row; i++)
+    {
+        <div class="row">
+            @for (int j = 1; j <= Model.Column; j++)
+            {
+                
+                    var seat = Model.AllSeat.FirstOrDefault(s => s.seat.Row == i && s.seat.Column == j);
+
+
+                    if (seat != null)
+                    {
+                        if (seat.Avaliable)
+                        {
+                            <div class="seat"></div>
+                        }
+                        else
+                        {
+
+
+                            <div class="seat occupied"></div>
+                        }
+                    }
+                    else
+                    {
+                    <div class="" style=" width: 60px;
+                      height: 40px;
+                      margin: 3px;
+                      border-top-left-radius: 10px;
+                      border-top-right-radius: 10px;cursor:not-allowed"></div>
+                        
+                    }
+                
+               
+            }
+
+
+        </div>
+    }
+
+
+   
+</div>
+<p class="text">
+    You have selected <span id="count">0</span> seats for a price of <span id="total">0</span> LE
+</p>
+<a asp-controller="Home" asp-action="index" class="btn">Home</a>
+<button id="Sumbit" href="payment form.html" class="btn">Pay Now</button>
+<script>
+    var MaxColumn = @Model.Column
+    var MaxRow = @Model.Row
+
+</script>
+<script src="~/js/booking.js"></script>
+@if (TempData.ContainsKey("Validation"))
+{
+    <script src="~/css/sweetalert/dist/sweetalert2.min.js"></script>
+
+    <p>@TempData["Validation"] </p>
+    <script>
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: '@TempData["Validation"].ToString()',
+
+        })
+    </script>
+
+}

@@ -1,0 +1,281 @@
+﻿@using System.Text
+@model  MoviesReservation.ViewModel.HomeView
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="main-page text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p class="details">
+                    @{
+                        StringBuilder genreString = new StringBuilder();
+                        for (int i = 0; i < Model.TopMovie.Gener.Count(); i++)
+                        {
+                            genreString.Append(Model.TopMovie.Gener.ElementAt(i).Name);
+                           
+                                genreString.Append(" | ");
+                            
+                        }
+                        genreString.Append(Model.TopMovie.formattedDuration);
+                        @genreString.ToString()
+                    }
+                </p>
+                <h1 class="film-name">Avengers:<br> The Endgame</h1>
+                <a class="btn" asp-controller="Reservation" asp-action="index" asp-route-id="@Model.TopMovie.Movie.Id">Get Ticket</a>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="~/images/@Model.TopMovie.Movie.Image" class="avengers">
+            </div>
+        </div>
+    </div>
+    <div class="popular-now">
+        <div class="container">
+            <div class="row">
+                <div class="head">
+                    <h3>Popular Now</h3>
+                </div>
+            </div>
+            <div class="row cards">
+                @foreach(var movie in Model.Popular)
+                {
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img src="~/images/@movie.Movie.Image" alt="">
+                        <div class="content">
+                            <p class="gerne">
+                                @{
+                                    genreString = new StringBuilder();
+                                    for (int i = 0; i < movie.Gener.Count(); i++)
+                                    {
+                                        genreString.Append(movie.Gener.ElementAt(i).Name);
+                                        if (i < movie.Gener.Count() - 1)
+                                        {
+                                            genreString.Append(" | ");
+                                        }
+                                    }
+                                    @genreString.ToString()
+                                }
+                            </p>
+                            <p class="time">@movie.formattedDuration</p>
+                            <p class="lang">@movie.Movie.Language </p>
+                            <a asp-controller="reservation" asp-action="index" asp-route-id="@movie.Movie.Id" class="btn">Get Ticket</a>
+                            <a asp-controller="movie" asp-action="Detail" asp-route-id="@movie.Movie.Id" class="btn2">Watch Trailer</a>
+                        </div>
+                    </div>
+                    
+                }
+
+
+                @* <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/logan.jpg" alt="">
+                    <div class="content">
+                        <p class="gerne">Action,Adventure</p>
+                        <p class="time">2h 56m</p>
+                        <p class="lang">AZ | EN </p>
+                        <a href="booking.html" class="btn">Get Ticket</a>
+                        <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/Kids/Onward.jpeg" alt="">
+                    <div class="content">
+                        <p class="gerne">Action,Adventure</p>
+                        <p class="time">2h 56m</p>
+                        <p class="lang">AZ | EN </p>
+                        <a href="booking.html" class="btn">Get Ticket</a>
+                        <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/doctor-strange-multiverse.jpg" alt="">
+                    <div class="content">
+                        <p class="gerne">Action,Adventure</p>
+                        <p class="time">2h 56m</p>
+                        <p class="lang">AZ | EN </p>
+                        <a href="booking.html" class="btn">Get Ticket</a>
+                        <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                    </div>
+                </div> *@
+            </div>
+        </div>
+    </div>
+    <div class="coming-soon">
+        <div class="container">
+            <div class="row">
+                <div class="head">
+                    <h3>Coming Soon</h3>
+                </div>
+            </div>
+            <div class="row cards">
+                @foreach (var movie in Model.CommingSoon)
+                {
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img src="~/images/@movie.Movie.Image" alt="">
+                        <div class="content">
+                            <p class="gerne">
+                                @{
+                                    genreString = new StringBuilder();
+                                    for (int i = 0; i < movie.Gener.Count(); i++)
+                                    {
+                                        genreString.Append(movie.Gener.ElementAt(i).Name);
+                                        if (i < movie.Gener.Count() - 1)
+                                        {
+                                            genreString.Append(" | ");
+                                        }
+                                    }
+                                    @genreString.ToString()
+                                }
+                            </p>
+                            <p class="time">@movie.formattedDuration</p>
+                            <p class="lang">@movie.Movie.Language </p>
+                            <a asp-controller="reservation" asp-action="index" asp-route-id="@movie.Movie.Id" class="btn">Get Ticket</a>
+                            <a asp-controller="movie" asp-action="Detail" asp-route-id="@movie.Movie.Id" class="btn2">Watch Trailer</a>
+                        </div>
+                    </div>
+
+                }
+        @*         <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/Upcoming/Avatar.jpg" alt="">
+                    <div class="content">
+                        <p class="gerne">Action,Adventure</p>
+                        <p class="time">2h 56m</p>
+                        <p class="lang">AZ | EN </p>
+                        <a href="booking.html" class="btn">Get Ticket</a>
+                        <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/Upcoming/creed III.webp" alt="">
+                    <div class="content">
+                        <p class="gerne">Action,Adventure</p>
+                        <p class="time">2h 56m</p>
+                        <p class="lang">AZ | EN </p>
+                        <a href="booking.html" class="btn">Get Ticket</a>
+                        <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/Kids/Adams.jpg" alt="">
+                    <div class="content">
+                        <p class="gerne">Action,Adventure</p>
+                        <p class="time">2h 56m</p>
+                        <p class="lang">AZ | EN </p>
+                        <a href="booking.html" class="btn">Get Ticket</a>
+                        <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/Upcoming/Megan.webp" alt="">
+                    <div class="content">
+                        <p class="gerne">Action,Adventure</p>
+                        <p class="time">2h 56m</p>
+                        <p class="lang">AZ | EN </p>
+                        <a href="booking.html" class="btn">Get Ticket</a>
+                        <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                    </div>
+                </div> *@
+            </div>
+        </div>
+        <div class="this-week">
+            <div class="container">
+                <div class="row">
+                    <div class="head">
+                        <h3>This week Concept</h3>
+                    </div>
+                </div>
+                <div class="row cards">
+                    @foreach (var movie in Model.Week)
+                    {
+                        <div class="card col-lg-3 col-md-6 col-sm-12">
+                            <img src="~/images/@movie.Movie.Image" alt="">
+                            <div class="content">
+                                <p class="gerne">
+                                    @{
+                                        genreString = new StringBuilder();
+                                        for (int i = 0; i < movie.Gener.Count(); i++)
+                                        {
+                                            genreString.Append(movie.Gener.ElementAt(i).Name);
+                                            if (i < movie.Gener.Count() - 1)
+                                            {
+                                                genreString.Append(" | ");
+                                            }
+                                        }
+                                        @genreString.ToString()
+                                    }
+                                </p>
+                                <p class="time">@movie.formattedDuration</p>
+                                <p class="lang">@movie.Movie.Language </p>
+                                <a asp-controller="reservation" asp-action="index" asp-route-id="@movie.Movie.Id" class="btn">Get Ticket</a>
+                                <a asp-controller="movie" asp-action="Detail" asp-route-id="@movie.Movie.Id" class="btn2">Watch Trailer</a>
+                            </div>
+                        </div>
+
+                    }
+ @*                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img src="~/images/Ant-man.jpeg" alt="">
+                        <div class="content">
+                            <p class="gerne">Action,Adventure</p>
+                            <p class="time">2h 56m</p>
+                            <p class="lang">AZ | EN </p>
+                            <a href="booking.html" class="btn">Get Ticket</a>
+                            <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img src="~/images/Beauty-Beast.webp" alt="">
+                        <div class="content">
+                            <p class="gerne">Action,Adventure</p>
+                            <p class="time">2h 56m</p>
+                            <p class="lang">AZ | EN </p>
+                            <a href="booking.html" class="btn">Get Ticket</a>
+                            <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img src="~/images/black-panther.jpg" alt="">
+                        <div class="content">
+                            <p class="gerne">Action,Adventure</p>
+                            <p class="time">2h 56m</p>
+                            <p class="lang">AZ | EN </p>
+                            <a href="booking.html" class="btn">Get Ticket</a>
+                            <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img src="~/images/Captain Marvel.jpeg" alt="">
+                        <div class="content">
+                            <p class="gerne">Action,Adventure</p>
+                            <p class="time">2h 56m</p>
+                            <p class="lang">AZ | EN </p>
+                            <a href="booking.html" class="btn">Get Ticket</a>
+                            <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                        </div>
+                    </div> *@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box-office">
+    <div class="container">
+        <div class="head row">
+            <h3>Box Office</h3>
+        </div>
+        <div class="row">
+            <div class="carousel card col-lg-3 col-md-6 col-sm-12">
+                <ul>
+                    @foreach(var movie in Model.BoxOffice)
+                    {
+                        <li><img src="~/images/@movie.Movie.Image"></li>
+                    }
+                    <li><img src="~/images/Age of Ultorn.jpeg"></li>
+                    <li><img src="~/images/Beauty-Beast.webp"></li>
+                    <li><img src="~/images/Black-mirror.jpg"></li>
+                    <li><img src="~/images/Captain Marvel.jpeg"></li>
+                    <li><img src="~/images/far-from-home.webp"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

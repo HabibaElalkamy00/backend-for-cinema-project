@@ -1,0 +1,301 @@
+﻿@using System.Text
+@model IEnumerable<MoviesReservation.ViewModel.Movies>
+@{
+    
+}
+<div class="all-movies">
+    <div class="container">
+        <div class="row links">
+            <a  asp-controller="movie" asp-action="index" asp-route-id="@null"   class="btn col-lg-3 col-md-3 col-sm-12">All Movies</a>
+            <a  asp-controller="movie" asp-action="index" asp-route-id="0"  class="btn col-lg-3 col-md-3 col-sm-12">Popular Now</a>
+            <a  asp-controller="movie" asp-action="index" asp-route-id="1" class="btn col-lg-3 col-md-3 col-sm-12">2D</a>
+            <a  asp-controller="movie" asp-action="index" asp-route-id="2" class="btn col-lg-3 col-md-3 col-sm-12">3D</a>
+            <a  asp-controller="movie" asp-action="index" asp-route-id="3" class="btn col-lg-3 col-md-3 col-sm-12">For Kids</a>
+            <a  asp-controller="movie" asp-action="index" asp-route-id="4" class="btn col-lg-3 col-md-3 col-sm-12">Coming Soon</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row cards">
+            @foreach(var Movie in Model)
+            {
+
+                
+                <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <img src="~/images/@Movie.Movie.Image" alt="">
+                    <div class="content">
+                        <p class="gerne">
+                         @{StringBuilder genreString = new StringBuilder();
+                                for (int i = 0; i < Movie.Gener.Count(); i++)
+                           {
+                                    genreString.Append(Movie.Gener.ElementAt(i).Name);
+                                    if (i < Movie.Gener.Count() - 1)
+                                    {
+                                genreString.Append(" | ");
+                             }
+                           }
+                            @genreString.ToString()
+                           }
+                        </p>
+                        <p class="time">@Movie.formattedDuration</p>
+                        <p class="lang">@Movie.Movie.Language </p>
+                        <a asp-controller="reservation" asp-action="index" asp-route-id="@Movie.Movie.Id" class="btn">Get Ticket</a>
+                        <a asp-controller="movie" asp-action="Detail" asp-route-id="@Movie.Movie.Id" class="btn2">Watch Trailer</a>
+                    </div>
+                </div>
+          
+            }
+        </div>
+      @*   <div class="row cards">
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Avengers End-Game.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/logan.jpg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/alic in wonderland.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Ant-man.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/black panther.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Captain Marvel.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/Big hero.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/civil war.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/doctor-strange-multiverse.jpg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Beauty-Beast.webp" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/Frozen.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/luca.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/brave.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/inside-out.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/Monsters-vs-Aliens-movie-poster.webp" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Ambulance.jpg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Scream.webp" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Uncharted.jpg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Spider-man-home-comig.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Smile.jpg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Star-wars.webp" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Tenet.jpg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/Kids/Bolt.jpeg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-6 col-sm-12">
+                <img src="~/images/orphan.jpg" alt="">
+                <div class="content">
+                    <p class="gerne">Action,Adventure</p>
+                    <p class="time">2h 56m</p>
+                    <p class="lang">AZ | EN </p>
+                    <a href="booking.html" class="btn">Get Ticket</a>
+                    <a href="movie-details.html" class="btn2">Watch Trailer</a>
+                </div>
+            </div>
+        </div> *@
+    </>
+</div>

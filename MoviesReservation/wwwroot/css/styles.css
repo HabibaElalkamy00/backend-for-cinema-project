@@ -1,0 +1,311 @@
+/* Main CSS Styles */
+/* Reset everything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set all pages to same size */
+.conatiner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Main Colors */
+:root {
+    --black: #000000;
+    --blue: #150050;
+    --purple: #3F0071;
+}
+
+.head {
+    border-bottom: 5px solid #150050;
+    width: fit-content;
+    margin: 50px 0;
+    color: white;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+/* Main Card */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background-color: rgba(95, 158, 160, 0.271);
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: 1s ease;
+}
+
+.card:hover .content {
+    right: 0;
+}
+
+.gerne {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.time {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.lang {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    line-height: 25px;
+}
+/* Main Card */
+
+/* NavBar */
+nav img {
+    width: 100px;
+    height: auto;
+}
+
+nav h1 {
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+nav .logo {
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.navbar {
+    align-items: baseline;
+}
+
+/* NavBar */
+
+/* AncorTags */
+.links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    transition: 0.6s;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.links a:hover {
+    color: #150050;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 180px;
+    transition: 0.6s;
+}
+
+.links ul li a:hover {
+    color: #150050;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+}
+/* AncorTags */
+
+/* Main Poster */
+.main-page {
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.main-page h1 {
+    font-size: 80px;
+}
+
+.main-page img {
+    width: 350px;
+    border-radius: 10px;
+}
+/* Main Poster */
+
+/* btn class */
+
+
+.btn {
+    color: white;
+    background-color: blue;
+    /* border-color: blue; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 5px 8px;
+    transition: 0.5s;
+}
+
+.btn2 {
+    color: white;
+    background: transparent;
+    /* border-color: blue; */
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.5s;
+}
+
+.btn a,
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+/* btn class */
+
+/* =============== Curousel ================ */
+
+.box-office {
+    margin-bottom: 80px;
+}
+
+.carousel {
+    width: 250px;
+    height: 350px;
+    overflow: visible;
+    background-color: transparent;
+    border: none;
+}
+
+.carousel img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+/* =============== Curousel ================ */
+
+/* =============== Movie Details Section ================ */
+.detail {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+    color: white;
+}
+
+.movie-details img {
+    width: 420px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.trailer {
+    text-align: center;
+}
+
+.related-movies img {
+    width: 100%;
+}
+/* =============== Movie Details Section ================ */
+/* =============== Cast ================ */
+.cast {
+    color: white;
+}
+
+.cast .actors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cast .actor {
+    text-align: center;
+}
+
+.cast img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+/* =============== Cast ================ */
+
+/* =============== Footer ================ */
+footer {
+    background-color: #000000;
+    width: 100%;
+    color: aliceblue;
+    padding: 50px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+li {
+    list-style: none;
+    margin-top: 7px;
+}
+
+.newsletter ul {
+    display: flex;
+}
+
+.newsletter ul li {
+    margin-right: 20px;
+}
+
+/* =============== Footer ================ */

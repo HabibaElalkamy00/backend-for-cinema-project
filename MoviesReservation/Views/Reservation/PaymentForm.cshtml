@@ -1,0 +1,82 @@
+﻿@model MoviesReservation.ViewModel.User
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="~/css/all.css">
+<link rel="stylesheet" href="~/css/bootstrap.css">
+<link rel="stylesheet" href="~/css/jquery.flipster.min.css">
+<link rel="stylesheet" href="~/css/styles.css">
+<link rel="stylesheet" href="~/css/payment.css">
+<nav>
+    <div class="container">
+        <div class="row">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="~/images/ninja_turtles.png" alt="">
+                    <h1>Ninja's Team</h1>
+                </div>
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="movies.html">Movies</a>
+                    <a href="">About Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="login-box">
+    <h2>Card Details</h2>
+    <form action="/reservation/PaymentFormCreate" method="post">
+        <div class="user-box">
+            <input  asp-for="UserName" name="UserName">
+            <label>Name</label>
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+        <div class="user-box">
+            <input  asp-for="PhoneNumber" name="PhoneNumber">
+            <label>Phone Number</label>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+        </div>
+        <div class="user-box">
+            <input asp-for="Email" name="Email">
+            <label>Email</label>
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+        </div>
+        <div class="user-box">
+            <input  asp-for="CardNumber" name="CardNumber">
+            <label>Card Number</label>
+            <span asp-validation-for="CardNumber" class="text-danger"></span>
+
+        </div>
+        <div class="user-box">
+            <input  asp-for="ExpiryDate" name="ExpiryDate">
+            <label>Expiry Date</label>
+            <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+
+        </div>
+        <div class="user-box">
+            <input asp-for="CVV" name="CVV">
+            <label>CVV</label>
+            <span asp-validation-for="CVV" class="text-danger"></span>
+
+        </div>
+        <input type="hidden" name="Id" value="@Model.Id"/>
+
+        <a>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="user-box">
+                <input type="submit">
+            </div>
+        </a>
+    </form>
+</div>
+<script src="~/js/all.js"></script>
+<script src="~/js/bootstrap.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script src="~/js/jquery.flipster.min.js"></script>
+<script src="~/js/main.js"></script>

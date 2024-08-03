@@ -1,0 +1,141 @@
+﻿@using System.Text
+@model MoviesReservation.ViewModel.DetailMovie
+@{
+    ViewData["Title"] = "detail movie";
+}
+<div class="container">
+    <div class="story-and-time row">
+        <div class="head">
+            <h3>Film Details</h3>
+        </div>
+        <div class="detail">
+            <div class="container">
+                <div class="img row">
+                    <img src="~/images/@Model.Movie.Image" class="col-lg-6 col-md-6 col-sm-12">
+                </div>
+                <div class="details row">
+                    <div class="col-lg-12 col-md-5 col-sm-12">
+                        <h4 class="">@Model.Movie.Name</h4>
+                        @foreach (var Type in Model.types)
+                        {
+                            <button class="btn">@Type.Name</button>
+                        }
+                        <p>
+                            @{
+                                StringBuilder genreString = new StringBuilder();
+                                for (int i = 0; i < Model.genres.Count(); i++)
+                                {
+                                    genreString.Append(Model.genres.ElementAt(i).Name);
+                                    genreString.Append(" | ");
+
+                                }
+                                genreString.Append(Model.formattedDuration);
+                                @genreString.ToString()
+                            }
+
+
+
+
+                            <a asp-controller="Reservation" asp-action="Index" asp-route-id="@Model.Movie.Id" class="btn">Book Now</a>
+
+                            </p>
+                        <p>
+                            @Model.Movie.Description
+                        </p>
+                        <p>
+                            Director: @Model.Movie.Director <br>
+                            Actors: 
+                            @{
+                                genreString = new StringBuilder();
+                                for (int i = 0; i < Model.Actors.Count(); i++)
+                                {
+                                    genreString.Append(Model.Actors.ElementAt(i).Name);
+                                    if (i < Model.Actors.Count() - 1)
+                                    {
+                                        genreString.Append(" | ");
+                                    }
+                                    
+
+                                }
+                                
+                                @genreString.ToString()
+                            }
+                            
+                            <br>
+                            Country: @Model.Movie.Country <br>
+                            Language: @Model.Movie.Language
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="trailer">
+    <div class="container">
+        <div class="head">
+            <h3>Trailer</h3>
+        </div>
+        <iframe width="80%" height="500px"  src="https://www.youtube.com/embed/@Model.Movie.Trailer"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+    </div>
+</div>
+<div class="cast">
+    <div class="container">
+        <div class="head">
+            <h3>Cast</h3>
+        </div>
+        <div class="actors row">
+            @foreach(var act in Model.Actors)
+            {
+                <div class="actor col-lg-3 col-md-6 col-sm-12">
+                    <img src="~/images/@act.Image">
+                    <h5>@act.Name</h5>
+                </div>
+            }
+           
+        </div>
+    </div>
+</div>
+<div class="related-movies">
+    <div class="container">
+        <div class="head">
+            <h3>Related Movies</h3>
+        </div>
+        <div class="row cards">
+            @foreach (var Movie in Model.RelatedMovie)
+            {
+
+
+                <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <img src="~/images/@Movie.Movie.Image" alt="">
+                    <div class="content">
+                        <p class="gerne">
+                            @{
+                                genreString = new StringBuilder();
+                                for (int i = 0; i < Movie.Gener.Count(); i++)
+                                {
+                                    genreString.Append(Movie.Gener.ElementAt(i).Name);
+                                    if (i < Movie.Gener.Count() - 1)
+                                    {
+                                        genreString.Append(" | ");
+                                    }
+                                }
+                                @genreString.ToString()
+                            }
+                        </p>
+                        <p class="time">@Movie.formattedDuration</p>
+                        <p class="lang">@Movie.Movie.Language </p>
+                        <a asp-controller="Reservation" asp-action="Index" asp-route-id="@Movie.Movie.Id" class="btn">Get Ticket</a>
+                        <a asp-controller="movie" asp-action="Detail" asp-route-id="@Movie.Movie.Id" class="btn2">Watch Trailer</a>
+                    </div>
+                </div>
+
+            }
+           
+
+        </div>
+    </div>
+</div>

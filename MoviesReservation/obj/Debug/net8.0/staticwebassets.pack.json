@@ -1,0 +1,1097 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MoviesReservation.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MoviesReservation.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\booking.css",
+      "PackagePath": "staticwebassets\\css\\booking.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\jquery.flipster.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.flipster.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\jquery.hislide.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.hislide.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\payment.css",
+      "PackagePath": "staticwebassets\\css\\payment.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\LICENSE",
+      "PackagePath": "staticwebassets\\css\\sweetalert"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\README.md",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\dist\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\dist\\sweetalert2.all.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\dist\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\dist\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\dist\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\dist\\sweetalert2.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\dist\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\dist\\sweetalert2.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\package.json",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\SweetAlert.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\SweetAlert.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\buttons-handlers.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\buttons-handlers.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\constants.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\constants.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\globalState.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\globalState.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods\\_destroy.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods\\_destroy.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods\\close.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods\\close.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods\\enable-disable-elements.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods\\enable-disable-elements.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods\\getInput.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods\\getInput.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods\\hideLoading.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods\\hideLoading.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods\\update.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods\\update.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\instanceMethods\\validation-message.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\instanceMethods\\validation-message.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\keydown-handler.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\keydown-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\popup-click-handler.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\popup-click-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\privateMethods.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\privateMethods.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\privateProps.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\privateProps.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_animations.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_body.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_body.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_theming.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_theming.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_toasts-animations.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_toasts-animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_toasts-body.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_toasts-body.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods\\argsToParams.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods\\argsToParams.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods\\bindClickHandler.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods\\bindClickHandler.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods\\dom.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods\\dom.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods\\fire.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods\\fire.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods\\mixin.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods\\mixin.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods\\showLoading.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods\\showLoading.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\staticMethods\\timer.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\staticMethods\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\sweetalert2.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\sweetalert2.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\sweetalert2.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\types.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\types.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\DismissReason.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\DismissReason.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\Timer.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\Timer.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\aria.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\aria.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\classes.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\classes.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\defaultInputValidators.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\defaultInputValidators.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\animationEndEvent.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\animationEndEvent.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\domUtils.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\domUtils.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\getters.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\getters.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\index.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\init.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\init.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\inputUtils.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\inputUtils.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\parseHtmlToContainer.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\parseHtmlToContainer.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\render.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\render.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderActions.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderActions.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderCloseButton.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderCloseButton.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderContainer.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderContainer.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderContent.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderContent.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderFooter.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderFooter.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderIcon.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderIcon.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderImage.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderImage.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderInput.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderInput.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderPopup.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderPopup.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderProgressSteps.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderProgressSteps.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderTitle.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\dom\\renderers\\renderTitle.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\getTemplateParams.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\getTemplateParams.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\iosFix.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\iosFix.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\isNodeEnv.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\isNodeEnv.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\openPopup.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\openPopup.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\params.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\params.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\scrollbar.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\setParameters.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\setParameters.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\utils\\utils.js",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\utils\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\src\\variables.scss",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\src\\variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\sweetalert\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\css\\sweetalert\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\css\\ticket.css",
+      "PackagePath": "staticwebassets\\css\\ticket.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Adams.jpg",
+      "PackagePath": "staticwebassets\\images\\Adams.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Age of Ultorn.jpeg",
+      "PackagePath": "staticwebassets\\images\\Age of Ultorn.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Ambulance.jpg",
+      "PackagePath": "staticwebassets\\images\\Ambulance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Ant-man.jpeg",
+      "PackagePath": "staticwebassets\\images\\Ant-man.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\Avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Avengers End-Game.jpeg",
+      "PackagePath": "staticwebassets\\images\\Avengers End-Game.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Beauty-Beast.webp",
+      "PackagePath": "staticwebassets\\images\\Beauty-Beast.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Beauty-beast.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty-beast.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Big hero.jpeg",
+      "PackagePath": "staticwebassets\\images\\Big hero.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Black-mirror.jpg",
+      "PackagePath": "staticwebassets\\images\\Black-mirror.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Bolt.jpeg",
+      "PackagePath": "staticwebassets\\images\\Bolt.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Bruce Willis.jpg",
+      "PackagePath": "staticwebassets\\images\\Bruce Willis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Captain Marvel.jpeg",
+      "PackagePath": "staticwebassets\\images\\Captain Marvel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Captain america.jpeg",
+      "PackagePath": "staticwebassets\\images\\Captain america.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Danny DeVito.jpg",
+      "PackagePath": "staticwebassets\\images\\Danny DeVito.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Frozen.jpeg",
+      "PackagePath": "staticwebassets\\images\\Frozen.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Harrison Ford.jpg",
+      "PackagePath": "staticwebassets\\images\\Harrison Ford.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Inc.jpeg",
+      "PackagePath": "staticwebassets\\images\\Inc.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Infinity war.jpeg",
+      "PackagePath": "staticwebassets\\images\\Infinity war.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Iron man.jpeg",
+      "PackagePath": "staticwebassets\\images\\Iron man.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Iron-man 3.jpeg",
+      "PackagePath": "staticwebassets\\images\\Iron-man 3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Jack Nicholson.jpg",
+      "PackagePath": "staticwebassets\\images\\Jack Nicholson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Adams.jpg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Adams.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Beauty-beast.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Beauty-beast.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Big hero.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Big hero.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Bolt.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Bolt.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Frozen.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Frozen.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Inc.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Inc.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\MU.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\MU.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Mary.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Mary.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Monsters-vs-Aliens-movie-poster.webp",
+      "PackagePath": "staticwebassets\\images\\Kids\\Monsters-vs-Aliens-movie-poster.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Nemo.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Nemo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Onward.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Onward.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Rat.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Rat.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Rise.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Rise.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Tagnald.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Tagnald.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Toy Story.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Toy Story.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\Wall E.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\Wall E.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\alic in wonderland.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\alic in wonderland.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\brave.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\brave.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\inside-out.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\inside-out.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Kids\\luca.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kids\\luca.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\MU.jpeg",
+      "PackagePath": "staticwebassets\\images\\MU.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Mary.jpeg",
+      "PackagePath": "staticwebassets\\images\\Mary.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Megan.webp",
+      "PackagePath": "staticwebassets\\images\\Megan.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Memory.jpg",
+      "PackagePath": "staticwebassets\\images\\Memory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Michael J. Fox.jpg",
+      "PackagePath": "staticwebassets\\images\\Michael J. Fox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Monsters-vs-Aliens-movie-poster.webp",
+      "PackagePath": "staticwebassets\\images\\Monsters-vs-Aliens-movie-poster.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Morbius.jpg",
+      "PackagePath": "staticwebassets\\images\\Morbius.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Morgan Freeman.jpg",
+      "PackagePath": "staticwebassets\\images\\Morgan Freeman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Nemo.jpeg",
+      "PackagePath": "staticwebassets\\images\\Nemo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Onward.jpeg",
+      "PackagePath": "staticwebassets\\images\\Onward.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Rat.jpeg",
+      "PackagePath": "staticwebassets\\images\\Rat.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Rise.jpeg",
+      "PackagePath": "staticwebassets\\images\\Rise.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Robert Downey Jr.jpg",
+      "PackagePath": "staticwebassets\\images\\Robert Downey Jr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Samuel L. Jackson.jpg",
+      "PackagePath": "staticwebassets\\images\\Samuel L. Jackson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Sandra Bullock.jpg",
+      "PackagePath": "staticwebassets\\images\\Sandra Bullock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Scream.webp",
+      "PackagePath": "staticwebassets\\images\\Scream.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Smile.jpg",
+      "PackagePath": "staticwebassets\\images\\Smile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Spider-man-home-comig.jpeg",
+      "PackagePath": "staticwebassets\\images\\Spider-man-home-comig.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Star-wars.webp",
+      "PackagePath": "staticwebassets\\images\\Star-wars.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Tagnald.jpeg",
+      "PackagePath": "staticwebassets\\images\\Tagnald.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Tenet.jpg",
+      "PackagePath": "staticwebassets\\images\\Tenet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\The batman.webp",
+      "PackagePath": "staticwebassets\\images\\The batman.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\The gray man.jpg",
+      "PackagePath": "staticwebassets\\images\\The gray man.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\The-Batman.webp",
+      "PackagePath": "staticwebassets\\images\\The-Batman.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\The-rock.jfif",
+      "PackagePath": "staticwebassets\\images\\The-rock.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Tom Hanks.jpg",
+      "PackagePath": "staticwebassets\\images\\Tom Hanks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Top-gun.jpg",
+      "PackagePath": "staticwebassets\\images\\Top-gun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Toy Story.jpeg",
+      "PackagePath": "staticwebassets\\images\\Toy Story.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Uncharted.jpg",
+      "PackagePath": "staticwebassets\\images\\Uncharted.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Upcoming\\Avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\Upcoming\\Avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Upcoming\\Megan.webp",
+      "PackagePath": "staticwebassets\\images\\Upcoming\\Megan.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Upcoming\\The batman.webp",
+      "PackagePath": "staticwebassets\\images\\Upcoming\\The batman.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Upcoming\\creed III.webp",
+      "PackagePath": "staticwebassets\\images\\Upcoming\\creed III.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Upcoming\\shazam.webp",
+      "PackagePath": "staticwebassets\\images\\Upcoming\\shazam.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\Wall E.jpeg",
+      "PackagePath": "staticwebassets\\images\\Wall E.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\alic in wonderland.jpeg",
+      "PackagePath": "staticwebassets\\images\\alic in wonderland.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\barcode.gif",
+      "PackagePath": "staticwebassets\\images\\barcode.gif"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\black panther.jpeg",
+      "PackagePath": "staticwebassets\\images\\black panther.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\black-panther.jpg",
+      "PackagePath": "staticwebassets\\images\\black-panther.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\brave.jpeg",
+      "PackagePath": "staticwebassets\\images\\brave.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\civil war.jpeg",
+      "PackagePath": "staticwebassets\\images\\civil war.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\creed III.webp",
+      "PackagePath": "staticwebassets\\images\\creed III.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\doctor-strange-multiverse.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor-strange-multiverse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\download.jfif",
+      "PackagePath": "staticwebassets\\images\\download.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\far-from-home.webp",
+      "PackagePath": "staticwebassets\\images\\far-from-home.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\frame.png",
+      "PackagePath": "staticwebassets\\images\\frame.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\inside-out.jpeg",
+      "PackagePath": "staticwebassets\\images\\inside-out.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\iron man 2.jpeg",
+      "PackagePath": "staticwebassets\\images\\iron man 2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\logan.jpg",
+      "PackagePath": "staticwebassets\\images\\logan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\luca.jpeg",
+      "PackagePath": "staticwebassets\\images\\luca.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\main-wallpaper.png",
+      "PackagePath": "staticwebassets\\images\\main-wallpaper.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\ninja_turtles.png",
+      "PackagePath": "staticwebassets\\images\\ninja_turtles.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\orphan.jpg",
+      "PackagePath": "staticwebassets\\images\\orphan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_1.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_1.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_11.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_11.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_12.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_12.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_2.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_2.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_21.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_21.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_22.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_22.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_31.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_31.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_32.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_32.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_34.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_34.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_35.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_35.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_36.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_36.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_37.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_37.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_59.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_59.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\qrcode\\qrcode_60.png",
+      "PackagePath": "staticwebassets\\images\\qrcode\\qrcode_60.png"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\ragnarok.jpg",
+      "PackagePath": "staticwebassets\\images\\ragnarok.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\shazam.webp",
+      "PackagePath": "staticwebassets\\images\\shazam.webp"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\images\\the-secrets-of-dumbledore.jpg",
+      "PackagePath": "staticwebassets\\images\\the-secrets-of-dumbledore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\all.js",
+      "PackagePath": "staticwebassets\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\booking.js",
+      "PackagePath": "staticwebassets\\js\\booking.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\jquery.flipster.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flipster.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\jquery.hislide.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.hislide.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kerol\\source\\repos\\MoviesReservation\\MoviesReservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoviesReservation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MoviesReservation.props",
+      "PackagePath": "build\\MoviesReservation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MoviesReservation.props",
+      "PackagePath": "buildMultiTargeting\\MoviesReservation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MoviesReservation.props",
+      "PackagePath": "buildTransitive\\MoviesReservation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

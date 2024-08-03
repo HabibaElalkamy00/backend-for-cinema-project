@@ -1,0 +1,43 @@
+﻿@model MoviesReservation.ViewModel.TicketView
+@{
+    int durationInMinutes = Model.ticket.MovieHall.Movie.DurationInMinutes;
+    DateTime endTime = Model.ticket.MovieHall.StartDateTime.AddMinutes(durationInMinutes);
+
+}
+<link rel="stylesheet" href="~/css/ticket.css">
+@foreach(var Image in Model.ticketSeats)
+{
+    <div class="container">
+        <div class="ticket">
+            <div class="left">
+                <div class="image" style="background-image: url('@Url.Content("~/images/" + Model.ticket.MovieHall.Movie.Image)');">
+                </div>
+                <div class="ticket-info">
+                    <p class="date">
+                        <span>@Model.ticket.MovieHall.StartDateTime.ToString("dddd").ToUpper() </span>
+                        <span class="june-29">@Model.ticket.MovieHall.StartDateTime.ToString("MMMM dS").ToUpper()</span>
+                        <span>@Model.ticket.MovieHall.StartDateTime.ToString("yyyy")</span>
+                    </p>
+                    <div class="show-name">
+                        <h1>@Model.ticket.MovieHall.Movie.Name</h1>
+                    </div>
+                    <div class="time">
+                        <p>@Model.ticket.MovieHall.StartDateTime.ToString("hh tt") <span>TO</span> @endTime.ToString("hh tt")</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-info-container">
+                    <div class="barcode">
+                        <img src="~/images/qrcode/@Image.qrCode"
+                             alt="QR code">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row links">
+            <a class="btn col-lg-3 col-md-6 col-sm-12">Download Ticket</a>
+            <a class="btn col-lg-3 col-md-6 col-sm-12">Share</a>
+        </div>
+    </div>
+}
